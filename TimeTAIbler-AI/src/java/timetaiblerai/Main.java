@@ -63,7 +63,7 @@ public class Main {
 
             Statement stmt = dbConnection.createStatement();
             ((OracleStatement) stmt).setDatabaseChangeRegistration(dcr);
-            ResultSet rs = stmt.executeQuery("select * from PREFERENCE where PreferenceId = 'PRE1'");
+            ResultSet rs = stmt.executeQuery("select * from PREFERENCE");
             while (rs.next()) {
             }
             String[] tableNames = dcr.getTables();
