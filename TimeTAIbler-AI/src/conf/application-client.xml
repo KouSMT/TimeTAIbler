@@ -26,4 +26,14 @@
     <ejb-ref-type>Session</ejb-ref-type>
     <remote>session.EnrollmentFacadeRemote</remote>
   </ejb-ref>
+  <ejb-ref>
+    <ejb-ref-name>PreferenceFacade</ejb-ref-name>
+    <ejb-ref-type>Session</ejb-ref-type>
+    <remote>session.PreferenceFacadeRemote</remote>
+  </ejb-ref>
+  <ejb-ref>
+    <ejb-ref-name>ClassFacade</ejb-ref-name>
+    <ejb-ref-type>Session</ejb-ref-type>
+    <remote>session.ClassFacadeRemote</remote>
+  </ejb-ref>
 </application-client>
